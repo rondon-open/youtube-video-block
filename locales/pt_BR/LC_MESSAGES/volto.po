@@ -1,0 +1,96 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plone\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-27T19:30:59.079Z\n"
+"PO-Revision-Date: 2017-02-28 08:52+0100\n"
+"Last-Translator: Léu Almeida <leo@webid.net.br>\n"
+"Language: pt-BR\n"
+"Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Language-Code: pt-br\n"
+"Language-Name: Português do Brasil\n"
+"Preferred-Encodings: utf-8\n"
+
+#: components/Blocks/YouTubeVideoBlock
+# defaultMessage: List with links
+msgid "List with links"
+msgstr "Lista com links"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Main Video
+msgid "Main Video"
+msgstr "Vídeo principal"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Related Video
+msgid "Related Video"
+msgstr "Vídeo relacionado"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Main Video Title
+msgid "Main Video Title"
+msgstr "Título do vídeo principal"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Main Video URL
+msgid "Main Video URL"
+msgstr "URL do Vídeo Principal"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Video List
+msgid "Video List"
+msgstr "Lista de Vídeos"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Related Video List
+msgid "Related Video List"
+msgstr "Lista de Vídeos Relacionados"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Add Video
+msgid "Add Video"
+msgstr "Adicionar Vídeo"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Remove Video
+msgid "Remove Video"
+msgstr "Remover Vídeo"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Video URL
+msgid "Video URL"
+msgstr "URL do Vídeo"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Video Title
+msgid "Video Title"
+msgstr "Título do Vídeo"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Video Description
+msgid "Video Description"
+msgstr "Descrição do Vídeo"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Show title of main video
+msgid "Show title of main video"
+msgstr "Exibir o título do vídeo principal"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Show description of main video
+msgid "Show description of main video"
+msgstr "Exibir descrição do vídeo principal"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Show title of main video
+msgid "Show title of list of videos"
+msgstr "Exibir o título da lista de vídeos"
+
+#: components/Blocks/YouTubeVideoBlock/Edit
+# defaultMessage: Show title of main video
+msgid "Show description of list of videos"
+msgstr "Exibir descrição da lista de vídeos"

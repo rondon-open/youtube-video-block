@@ -1,0 +1,64 @@
+.youtube-video-block {
+  margin: 2rem 0;
+
+  .main-video {
+    margin-bottom: 2rem;
+    
+    iframe {
+      // border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .video-info {
+      h4 {
+        margin: 0 0 0.5rem;
+        color: #333;
+      }
+
+      p {
+        margin: 0;
+        color: #666;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .video-list {
+    margin-top: 2rem;
+
+    .video-item {
+      padding: 1rem;
+      background: #fff;
+      // border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 1rem;
+
+      iframe {
+        // border-radius: 8px;
+        margin-bottom: 1rem;
+      }
+
+      .video-info {
+        h4 {
+          margin: 0 0 0.5rem;
+          color: #333;
+        }
+
+        p {
+          margin: 0;
+          color: #666;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
+.columns-block .block-editor-youtubeVideoBlock, .block-editor-channelListBlock {
+  width: 300px;
+  // height: 200px;
+}
+
+.red-youtube{
+  color: #ff0133;
+}
