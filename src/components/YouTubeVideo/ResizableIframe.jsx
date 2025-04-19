@@ -11,7 +11,7 @@ const ResizableIframe = ({ video, videoRef = useRef(null) }) => {
       setHeight((width * 9) / 16);
     };
 
-    updateHeight(); // Definir altura inicial
+    updateHeight();
 
     window.addEventListener('resize', updateHeight);
     return () => window.removeEventListener('resize', updateHeight);
@@ -24,7 +24,7 @@ const ResizableIframe = ({ video, videoRef = useRef(null) }) => {
       src={`https://www.youtube.com/embed/${getVideoId(video.url)}`}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
-      title={`Vídeo relacionado: ${video.title}`}
+      title={video.title}
     />
   );
 };

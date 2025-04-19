@@ -23,6 +23,7 @@ const applyConfig = (config) => {
       {
         id: 'default',
         title: 'default',
+        isDefault: true,
       },
       {
         id: 'grid',

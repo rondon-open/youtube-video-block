@@ -24,8 +24,7 @@ const ViewDefault = (props) => {
       )}
 
       {videoList.length > 0 && (
-        <div className="video-list">
-          <Header as="h3">Vídeos relacionados</Header>
+        <div className="video-list">          
           <Grid columns={3} stackable>
             {videoList.map((video, index) => (
               <Grid.Column key={index}>

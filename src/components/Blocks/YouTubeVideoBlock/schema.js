@@ -116,20 +116,18 @@ export const YouTubeVideoBlockSchema = ({ intl }) => ({
           url: {
             title: 'URL',
             description: intl.formatMessage(messages.mainVideoURL),
-            widget: 'url',
-            required: true,
+            widget: 'url',            
           },
           title: {
             title: intl.formatMessage(messages.title),
-            description: intl.formatMessage(messages.mainVideoTitle),
-            required: false,
+            description: intl.formatMessage(messages.mainVideoTitle),            
           },
           description: {
             title: intl.formatMessage(messages.description),
-            widget: 'textarea',
-            required: false,
+            widget: 'textarea',            
           },
         },
+        required: ['url'],
       },
     },
     videoList: {
@@ -149,28 +147,25 @@ export const YouTubeVideoBlockSchema = ({ intl }) => ({
           url: {
             title: 'URL',
             widget: 'url',
-            required: true,
           },
           title: {
-            title: intl.formatMessage(messages.title),
-            required: false,
+            title: intl.formatMessage(messages.title),            
           },
           description: {
             title: intl.formatMessage(messages.description),
-            widget: 'textarea',
-            required: false,
+            widget: 'textarea',            
           },
         },
+        required: ['url'],
       },
     },
   },
-
   required: [],
 });
 
 export const validateYouTubeUrl = (value) => {
   if (!isValidYouTubeUrl(value)) {
-    return 'URL do YouTube inválida';
+    return 'YouTube URL invalid';
   }
   return null;
 };

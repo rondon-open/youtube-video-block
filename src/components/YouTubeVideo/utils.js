@@ -1,7 +1,6 @@
 export const getVideoId = (url) => {
   if (!url) return null;
 
-  // Extrai o ID do vídeo de diferentes formatos de URL do YouTube
   const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
   const match = url.match(regExp);
 

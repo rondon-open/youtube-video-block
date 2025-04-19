@@ -18,8 +18,6 @@ const ViewVideoLinkList = (props) => {
   const handleClick = (event) => {
     if (iframeRef.current) {
       iframeRef.current.src = `https://www.youtube.com/embed/${getVideoId(event.target.href)}`;
-      // if (mainTitleRef.current)
-      //   mainTitleRef.current.innerHTML = event.target.title;
     }
     event.preventDefault();
   };
