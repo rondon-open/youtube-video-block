@@ -1,6 +1,6 @@
 {
   "name": "@rondon-open/youtube-video-block",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "youtube-video-block: Volto add-on that provides a YouTube video list block",
   "main": "src/index.js",
   "repository": {

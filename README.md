@@ -22,7 +22,7 @@ A Volto add-on that provides a YouTube video list block for your Plone/Volto web
 yarn add @rondon-open/youtube-video-block
 ```
 
-2) add the add-on to your package.json:
+2) Add the add-on to your package.json:
 
 ```js
 "addons": [
@@ -66,4 +66,12 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
-MIT © [Rondon Open](https://github.com/rondon-open)
+MIT - See [LICENSE](LICENSE) for details.
+
+## Support
+
+Report issues at [GitHub Issues](https://github.com/rondon-open/youtube-video-block/issues)
+
+---
+
+Maintained by [Rondon Open](https://github.com/rondon-open)
